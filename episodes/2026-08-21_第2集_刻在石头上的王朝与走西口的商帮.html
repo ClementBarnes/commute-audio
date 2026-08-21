@@ -25,9 +25,16 @@
   .body h2:first-child{border-top:none;margin-top:0;padding-top:0}
   .body p{margin:10px 0}
   .footer{text-align:center;margin-top:32px;font-size:12px;color:#B0AEA6}
+  .nav-fab{position:fixed;right:18px;bottom:18px;z-index:9999;display:flex;gap:10px;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+  .nav-fab a{display:inline-flex;align-items:center;gap:6px;padding:10px 16px;border-radius:999px;font-size:14px;font-weight:600;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.22)}
+  .nav-fab a:active{transform:scale(.96)}
+  .nav-fab .back-home{background:#2C2C2A;color:#fff}
+  .nav-fab .go-home{background:#085041;color:#fff}
+  @media(max-width:600px){.nav-fab{right:12px;bottom:12px;gap:8px}.nav-fab a{padding:9px 13px;font-size:13px}}
 </style>
 </head>
 <body>
+<div class="nav-fab"><a href="/commute-audio/" class="back-home" title="返回通勤音频目录">← 目录</a><a href="/" class="go-home" title="返回个人主页">🏠 主页</a></div>
 <div class="wrap">
   <div class="top">
     <a class="back" href="/">← 门户</a>
@@ -64,7 +71,7 @@
 <p>好了，老板，一天结束了。今天想留给你的，其实就一句话：不管是刻石头，还是做买卖，真正的功夫，都藏在别人看不见的坚持里。愿你今晚睡得踏实，明天继续赶路，我们明早见。</p>
   </div>
 
-  <div class="footer">© 2026 · 记录即复利<br><span class="pt" style="font-size:11px;color:#B0AEA6">🕐 最后推送：<span id="push-time">2026-08-21 19:46</span></span><!--__PUSH_TIME__--></div>
+  <div class="footer">© 2026 · 记录即复利<br><span class="pt" style="font-size:11px;color:#B0AEA6">🕐 最后推送：<span id="push-time">2026-08-21 20:28</span></span><!--__PUSH_TIME__--></div>
 </div>
 </body>
 </html>
